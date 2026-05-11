@@ -22,7 +22,7 @@ Damped Harmonic Oscillator 수학 연산을 사용합니다.
 ### 기본 사용법
 
 ```lua
-local Springs = require(game.ReplicatedStorage.Shared.springs)
+local Springs = require(game.ReplicatedStorage.springs)
 
 local mySpring = Springs.new({
     initial = Vector3.new(0, 0, 0),
